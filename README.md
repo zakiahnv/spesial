@@ -18,7 +18,7 @@ Created By viloid (github.com/vsec7)
 ## • Installation
 
 ```bash
-git clone https://github.com/vsec7/DiscordSelfbot.git
+git clone https://github.com/zakiahnv/spesial.git
 ```
 
 ## • Edit Configurations *config.yaml* file
@@ -30,10 +30,10 @@ BOT_TOKEN:                      # Discord SelfBot Token *Required
 CHANNEL_ID:                     # channel id *Required
     - Channel Id 1
     - Channel Id 2              # You can add multiple channel id
-MODE:                           # mode: (quote, repost, simsimi) *Leave blank Default: quote
+MODE: quote                          # mode: (quote, repost, simsimi) *Leave blank Default: quote
 REPLY: Y                        # For simsimi mode only *Leave blank if you dont use it
 SIMSIMI_LANG: 				    # Simsimi Language (id/en) *Leave blank Default: id
-DELAY: 60	                    # Delay per send massage *second
+DELAY: 15	                    # Delay per send massage *second
 DEL_AFTER: Y                    # Delete after send *Leave blank if you dont use it 
 REPOST_LAST_CHAT: 100           # Repost from last ?n chat in channel          
 ```
@@ -51,13 +51,9 @@ or you can create bookmark and paste this js inject to url bookmark, and click w
 
 ## • How to Run?
 ```bash
-cd DiscordSelfbot
+cd spesial
 pip install -r requirements.txt
-python bot.py
+python3 bot.py
 ```
 
-## • Donation
 
-SOL Address : viloid.sol
-
-BSC Address : 0xd3de361b186cc2Fc0C77764E30103F104a6d6D07
