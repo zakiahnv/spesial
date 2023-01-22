@@ -56,4 +56,6 @@ pip install -r requirements.txt
 python3 bot.py
 ```
 
-
+Donate?
+0x0000003E52C4c1F50b32F44fD84395E733Bf7707
+HUC3i5xjbvCtxT8cVdWrFaHWdkdsAkXWUuv7JV6fP3MV
